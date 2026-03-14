@@ -1,0 +1,9 @@
+mkdir -p /Users/gregduckworth/Git/CoCT/ds_code_challenge/notebooks/data/sample_images_jpg/{yes,no}
+
+for f in /Users/gregduckworth/Git/CoCT/ds_code_challenge/notebooks/data/sample_images/yes/*.tif; do
+  magick "$f" "/Users/gregduckworth/Git/CoCT/ds_code_challenge/notebooks/data/swimming_pool/yes/$(basename "${f%.tif}.jpg")"
+done
+
+for f in /Users/gregduckworth/Git/CoCT/ds_code_challenge/notebooks/data/sample_images/no/*.tif; do
+  magick "$f" "/Users/gregduckworth/Git/CoCT/ds_code_challenge/notebooks/data/swimming_pool/no/$(basename "${f%.tif}.jpg")"
+done
