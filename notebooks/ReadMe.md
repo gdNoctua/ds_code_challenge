@@ -1,6 +1,6 @@
 # Data Scientist Challenge Submission
 
-This script details steps on how to view my submission for the Data Science Challenge, or, how to run the analysis should on wish to do so.
+This script details steps on how to view my submission for the Data Science Challenge, or, how to run the analysis should on wish to do so. My work is contained in the 'notebooks' section of the repo, located in the root from the forked repo. Please look in the for the work to which the following instructions relate. 
 
 1. I tackle the 3rd Data Science Task First; the **Classification Challenge**. This analysis is dependent on data being loaded into the notebook environment. In order to do that, one needs to run the notebook `Obtaining_Data.ipynb`. This notebook facilitates accessing and downloading data for both the **Classification Challenge** and the **Computer Vision Task**, so you are welcome to execute all the cells of the notebook which will load the requisite datasets for both challenges. However, only execute cells 1 - 8 if you want to only process data for the classification challenge. Once this is done, you can move onto the next step.
 
